@@ -1,0 +1,793 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+}
+
+/* LOGO DESIGN */
+
+.main-menu .logo
+{
+	height: 100px;
+	width: 120px;
+	margin: 7px 3px;
+	padding: 5px;
+
+	
+}
+.main-menu a
+{
+	text-decoration: none;
+}
+
+.main-menu .logo-txt
+{
+	position: relative;
+	font-size: 50px;
+	left: 125px;
+	bottom: 65px;
+
+}
+
+/* NAVIGATION BAR DESIGN*/
+.nav-bar ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 15px;
+	margin-right: 520px;
+
+
+}
+
+.nav-bar ul li
+{
+	display: inline-block;
+}
+
+.nav-bar ul li a
+{
+	text-decoration: none;
+	color:#006266;
+	padding: 14px 16px;
+	
+	border-radius: 16px;
+	position: relative;
+	bottom: 140px;
+	left: 170px;
+	margin-left: 35px;
+	font-weight: bold;
+	font-size: 20px;
+	overflow-x: hidden;
+	background: #ecf0f1;
+}
+
+.nav-bar ul li a:hover
+{
+	background:#7efff5;
+	color: blue;
+}
+
+/* SEARCH-BOX DESIGN */
+
+.nav-bar .search-box
+{
+	position: absolute;
+	top:11%;
+	left: 73%;
+	transform: translate(-50%,-50%);
+	background:#7efff5;
+	height: 40px;
+	border-radius: 40px;
+	padding: 8px;
+}
+
+.nav-bar .search-btn
+{
+	color: blue;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.nav-bar .search-txt
+{
+	background:none;
+	outline: none;
+	border:none;
+	float: left;
+	color: white;
+	padding: 0;
+	font-size: 20px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+.nav-bar .search-box:hover .search-txt
+{
+	width: 200px;
+}
+
+/* REGISTER-LOGIN */
+
+.nav-bar button
+{
+	font-size: 20px;
+	padding: 14px 16px;
+	position: relative;
+	font-weight: bold;
+	border-radius: 20px;
+	left:500px;
+	bottom: 140px;
+	background:#ecf0f1;
+	color: #006266;
+	
+
+}
+
+.nav-bar button:hover
+{
+	background:#7efff5;
+	color: blue;
+}
+
+/* IMAGE AFTER NAVIGATION */
+
+.mid-bar
+{
+	position: relative;
+	bottom: 90px;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	height: 630px;
+	background-image: url(../img/mid.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 630px;
+
+}
+
+ /*MID SECTION*/
+
+.mid-main
+{
+	position: relative;
+	font-family: "BeonRegular";
+	height: auto;
+	width: 100%;
+	padding-bottom:40px;
+	padding-top:30px; 
+	bottom: 90px;
+	text-align: center;
+	justify-content: center;
+	font-size: 35px;
+	font-weight: bold;
+	
+
+}
+
+/* POPULAR TUTORIALS SECTION*/
+
+.mid-main-icons
+{
+	position: relative;
+	width: 100%;
+	height: 550PX;
+	overflow: hidden;
+	background:#ecf0f1 ;
+	bottom: 90px;
+
+}
+
+.mid-main-icons a
+{
+	text-decoration: none;	
+}
+
+/* HTML */
+
+.mid-main-icons .icon1
+{
+	font-size: 140px;
+	margin-left:30px;
+	margin-top: 20px;
+	position: relative;
+	left: 10px;
+	color: red;
+}
+
+.mid-main-icons .icon-txt1
+{
+	font-size: 30px;
+	position: relative;
+	left: 50px;
+}
+
+/* CSS */
+
+.mid-main-icons .icon2
+{
+	font-size: 140px;
+	margin-left: 30px;
+	margin-top: 20px;
+	position: relative;
+	left: 280px;
+	bottom:195px;
+	color: #74b9ff;
+}
+.mid-main-icons .icon-txt2
+{
+	font-size: 30px;
+	position: relative;
+	left: 335px;
+	bottom: 195px;
+
+}
+
+/* BOOTSTRAP */
+
+.mid-main-icons .icon3
+{
+	font-size: 140px;
+	margin-top: 20px;
+	position: relative;
+	left: 590px;
+	bottom:390px;
+	color: #30336b;
+
+}
+.mid-main-icons .icon-txt3
+{
+	font-size: 30px;
+	position: relative;
+	left: 563px;
+	bottom: 390px;
+}
+
+ /* JAVASCRIPT */
+
+.mid-main-icons .icon4
+{
+	font-size: 140px;
+	margin-top: 20px;
+	position: relative;
+	left: 890px;
+	bottom:580px;
+	color: #f1c40f;
+}
+
+.mid-main-icons .icon-txt4
+{
+	font-size: 30px;
+	position: relative;
+	left: 865px;
+	bottom: 580px;
+}
+
+/* NODE JS */
+
+.mid-main-icons .icon5
+{
+	font-size: 140px;
+	margin-top: 20px;
+	position: relative;
+	left: 1180px;
+	bottom:780px;
+	color: #2ecc71;
+}
+
+.mid-main-icons .icon-txt5
+{
+	font-size: 30px;
+	position: relative;
+	left: 1180px;
+	bottom: 775px;
+}
+
+/* REACT JS */
+
+.mid-main-icons .icon6
+{
+	font-size: 140px;
+	margin-top: 20px;
+	position: relative;
+	left: 1430px;
+	bottom:970px;
+	color:#74b9ff;
+}
+
+.mid-main-icons .icon-txt6
+{
+	font-size: 30px;
+	position: relative;
+	left: 1430px;
+	bottom: 965px;
+}
+
+/* JAVA */
+
+.mid-main-icons .icon7
+{
+	font-size: 150px;
+	margin-top: 20px;
+	position: relative;
+	left: 165px;
+	bottom:910px;
+	color:#e74c3c;
+}
+
+.mid-main-icons .icon-txt7
+{
+	font-size: 35px;
+	position: relative;
+	left: 185px;
+	bottom: 905px;
+	
+}
+
+/* PYTHON */
+
+.mid-main-icons .icon8
+{
+	font-size: 150px;
+	margin-top: 20px;
+	position: relative;
+	left: 440px;
+	bottom:1120px;
+	color:#273c75;
+}
+
+.mid-main-icons .icon-txt8
+{
+	font-size: 35px;
+	position: relative;
+	left: 430px;
+	bottom: 1120px;
+	
+}
+
+/* PHP */
+
+.mid-main-icons .icon9
+{
+	font-size: 140px;
+	margin-top: 20px;
+	position: relative;
+	left: 710px;
+	bottom:1320px;
+	color:#273c75;
+}
+
+.mid-main-icons .icon-txt9
+{
+	font-size: 35px;
+	position: relative;
+	left: 770px;
+	bottom: 1320px;
+	
+}
+
+/* MYSQL */
+
+.mid-main-icons .icon10
+{
+	margin-top: 20px;
+	position: relative;
+	left: 1000px;
+	bottom:1560px;
+	height: 180px;
+	width: 200px;
+}
+
+.mid-main-icons .icon-txt10
+{
+	font-size: 35px;
+	position: relative;
+	left: 1040px;
+	bottom: 1565px;
+	
+}
+
+/* MONGODB */
+
+.mid-main-icons .icon11
+{
+	
+	position: relative;
+	left: 1310px;
+	bottom:1770px;
+	height: 160px;
+	width: 160px;
+}
+
+.mid-main-icons .icon-txt11
+{
+	font-size: 35px;
+	position: relative;
+	left: 1300px;
+	bottom: 1770px;
+	
+}
+
+/* BOTTOM-SECTION */
+
+.bottom-main
+{
+	position: relative;
+	font-family: "BeonRegular";
+	height: auto;
+	width: 100%;
+	padding-bottom:20px;
+	padding-top:30px; 
+	bottom: 90px;
+	text-align: center;
+	justify-content: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+/* OTHER TUTORIALS SECTION */
+
+.bottom-main-icons
+{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background:#ecf0f1 ;
+	bottom: 90px;
+
+}
+
+/* CONTAINER 1 */
+
+.bottom-main-icons .bottom-main-container1
+{
+	position: relative;
+	width: 650px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	top: 40px;
+	overflow: hidden;
+	background:#fafafa ;
+	margin: 30px 40px; 
+}
+
+.bottom-main-container1 img
+{
+	height: 70px;
+	width: 70px;
+}
+
+.bottom-main-container1 .icon1
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.bottom-main-icons .bottom-main-container2
+{
+	position: relative;
+	width: 650px;
+	height: 300px;
+	display: flex;
+	overflow: hidden;
+	background:#fafafa ;
+	margin: 40px 30px; 
+	left: 850px;
+	bottom: 300px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.bottom-main-container2 img
+{
+	height: 75px;
+	width: 75px;
+}
+
+.bottom-main-container2 .icon2
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	font-size: 25px;
+	padding: 20px;
+}
+.bottom-main-icons .bottom-main-container3
+{
+	position: relative;
+	width: 650px;
+	height: 300px;
+	bottom: 260px;
+	display: flex;
+	overflow: hidden;
+	background:#fafafa ;
+	margin: 40px 40px;
+	align-items: center;
+	justify-content: space-evenly; 
+}
+
+.bottom-main-container3 img
+{
+	height: 75px;
+	width: 75px;
+}
+
+.bottom-main-container3 .icon3
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.bottom-main-icons .bottom-main-container4
+{
+	position: relative;
+	width: 650px;
+	height: 300px;
+	display: flex;
+	overflow: hidden;
+	background:#fafafa ;
+	margin: 40px 30px; 
+	left: 850px;
+	bottom: 600px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.bottom-main-container4 img
+{
+	height: 75px;
+	width: 75px;
+}
+
+.bottom-main-container4 .icon4
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	font-size: 25px;
+	padding: 20px;
+}
+
+/* FOOTER */
+.footer-container
+{
+
+	background: #303036;
+	color: #D3D3D3;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+
+}
+
+.footer-container .content
+{
+	background: #303036;
+	color: white;
+	height: 400px;
+	width: 400px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	font-size: 20px;
+	padding-top: 30px;	
+}
+
+.footer-container .content .content-mail span
+{
+	display: block;
+	font-size: 20px;
+	color: white;
+	padding-top: 15px;
+}
+
+.footer-container .content .content-social a
+{
+	width: 45px;
+	height: 41px;
+	padding-top: 5px;
+	margin-top: 25px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	line-height: 35px;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.5em;
+	border-radius: 10px;
+	color: #c8d6e5;
+}
+
+.footer-container .content .content-social a:hover
+{
+	border: 1px solid white;
+}
+.footer-container .links
+{
+	background:#303036;
+	color: white;
+	padding-right: 10px;
+	height: 400px;
+	width: 400px;
+	padding-top: 30px;
+	
+}
+
+.footer-container .links a
+{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.footer-container .links ul a
+{
+	display: block;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	color: white;
+	position: relative;
+	left: 380px;
+}
+
+.footer-container .links ul a:hover
+{
+	background:#dfe6e9;
+	color:#2d3436;
+}
+
+.footer-container .contact-form
+{
+	background: #303036;
+	color: white;
+	height: 400px;
+	width: 400px;
+	
+
+}
+.footer-container .contact-form h2
+{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+}
+.footer-container .contact-form .contact-input
+{
+	height: 40px;
+	position: relative;
+	top: 40px;
+	left: 60px;
+	width: 70%;
+	padding: 5px;
+	margin-bottom: 10px;
+	color: black;
+	border:none;
+	outline: none;
+	font-size: 20px;
+}
+.footer-container .contact-form .text-input
+{
+	position: relative;
+	outline: none;
+	border:none;
+	padding: 5px;
+	margin-bottom: 10px;	
+	height: 150px;
+	width: 70%;
+	top: 40px;
+	left: 60px;
+	font-size: 20px;
+	color: black;
+
+}
+.footer-container .contact-form button
+{
+	position: relative;
+	font-size: 20px;
+	padding: 5px 5px;
+	margin-left: 30px;
+	border: 1px solid yellow;
+	background: white;
+	color:black;
+	
+}
+
+.footer-bottom
+{
+	font-size: 25px;
+	text-align: center;
+	background: #303036;
+	color: #dfe6e9;
+	height: 50px;
+	padding-top: 20px;
+	
+}
+/*
+.footer .footer-content
+{
+	border: 1px solid red;
+	height: 325px;
+	display: flex;
+}
+
+.footer .footer-content .footer-section
+{	
+	flex: 1;
+	border: 1px solid white;
+	padding: 25px;
+}
+
+oter .footer-bottom
+{
+	background: #343a40;
+	color: #c8d6e5;
+	font-size: 20px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 20px;
+}.fo
+
+.footer .footer-content .about .contact span
+{
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 8px;
+	margin-top: 12px;
+}
+
+.footer .footer-content .about .social a
+{
+	border: 1px solid gray;
+	width: 45px;
+	height: 41px;
+	padding-top: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	line-height: 35px;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.5em;
+	border-radius: 10px;
+	color: #c8d6e5;
+
+}
+
+.footer .footer-content .links
+{
+	display: block;
+}	
+*/
+
+
+
+
