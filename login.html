@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login and Register</title>
+	<link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<div class="login_page">
+	<div class="register_page">
+	<form class="register_form">
+	<input type="text" name="username" placeholder="Username"><br>
+	<input type="text" name="password" placeholder="Password"><br>
+	<input type="text" name="email" placeholder="Email"><br>
+	<button>Register</button>
+	<p class="message" id="show_login">Already registered...<a href="#" style="color: #cbe547">Login</a></p>
+	
+</form>
+
+<form class="login_form">
+	<input type="text" name="username" placeholder="Username"><br>
+	<input type="text" name="password" placeholder="Password"><br>
+	<button>Login</button>
+	<p class="message" id="show_register">Not registered...<a href="#" style="color: #cbe547">Register</a></p>
+	
+</form>
+</div>
+</div>
+<script>
+$(function(){
+ 
+ $('#show_register').click(function(){
+        $('.login_form').hide();
+        $('.register_form').show();
+        return false;
+});
+
+})
+
+$(function(){
+	
+$('#show_login').click(function(){
+        $('.login_form').show();
+        $('.register_form').hide();
+        return false;
+    });    
+}) 
+</script>
+</body>
+</html>
